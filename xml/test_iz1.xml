@@ -1,0 +1,54 @@
+<clamp>
+
+	<neuron type="1">
+		<vars>
+			<v val="30.24"/>
+			<u val="-5.5"/>
+		</vars>
+		<params>
+			<a val="0.02"/>
+			<b val="0.2"/>
+			<c val="-50.0"/>
+			<d val="2.0"/>
+			<i val="10.0"/>
+
+			<method val="3"/>
+		</params>
+	</neuron>
+
+	<synapse_ltom type="1">
+		<g val="0.4"/>
+		<antiphase val="1"/>
+	</synapse_ltom>
+
+	<synapse_mtol type="1">
+		<g val="0.4"/>
+		<antiphase val="1"/>
+	</synapse_mtol>
+
+	<calib type="0"></calib>
+
+	<freq val="10000"/>
+
+	<times>
+		<before val="5"/>
+		<duration val="10"/>
+		<after val="5"/>
+		<observation val="10"/>
+	</times>
+
+	<output_channels val="0,1"/>
+
+	<input_channels val="0"/>
+
+	<input_factor val="1000"/>
+
+	<output_factor val="1"/>
+
+	<imp val="0"/>
+
+	<drift val="0"/>
+
+	<sec_per_burst val="0.25"/>
+
+</clamp>
